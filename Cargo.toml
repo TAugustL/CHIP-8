@@ -1,0 +1,14 @@
+[package]
+name = "chip-8"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sdl2 = "0.37.0"
+rand = "0.8.5"
+
+[features]
+# default = ["alt_shift", "alt_jump", "alt_store_load"]
+alt_shift = []
+alt_jump = []
+alt_store_load = []
